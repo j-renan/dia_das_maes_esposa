@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia das Mães, Meu Amor</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        
+        <header class="hero glass-panel">
+            <h1 class="title">Feliz Dia das Mães</h1>
+            <p class="subtitle">Para a mulher da minha vida, minha esposa incrível.</p>
+        </header>
+
+        <section class="gallery-section">
+            <div class="carousel-container glass-panel">
+                <div class="carousel-track" id="carousel-track">
+                    <!-- Imagens serão carregadas dinamicamente via JS -->
+                </div>
+                
+                <button class="carousel-button prev-btn" aria-label="Foto anterior">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <button class="carousel-button next-btn" aria-label="Próxima foto">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+
+                <div class="carousel-nav" id="carousel-nav">
+                    <!-- Dots serão carregados dinamicamente via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section class="message-section glass-panel">
+            <div class="message-content">
+                <h2>Com todo meu amor,</h2>
+                <p>Neste dia especial, quero agradecer por tudo que você faz. Você é o coração da nossa casa, a alegria dos meus dias e uma mãe maravilhosa. Cada momento ao seu lado é um presente precioso que guardo com muito carinho.</p>
+                <p>Te amo infinitamente. ❤️</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="photos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
